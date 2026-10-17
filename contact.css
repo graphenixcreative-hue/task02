@@ -1,0 +1,197 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef6ff;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #dbeafe;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 700px;
+    margin: 45px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.12);
+}
+
+main h2 {
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+main h3 {
+    color: #2563eb;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main > p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+form p {
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+    color: #374151;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+button[type="submit"] {
+    background: #2563eb;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #1d4ed8;
+}
+
+button[type="reset"] {
+    background: #e5e7eb;
+    color: #333;
+}
+
+button[type="reset"]:hover {
+    background: #d1d5db;
+}
+
+
+main a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background: #dbeafe;
+}
+
+
+footer {
+    background: #172554;
+    color: #bfdbfe;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+footer strong {
+    color: white;
+}
+
+footer a {
+    color: #bfdbfe;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 7px 0;
+}
+
+
+@media (max-width: 600px) {
+    main {
+        margin: 25px 15px;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    button {
+        margin-bottom: 8px;
+    }
+}
+
